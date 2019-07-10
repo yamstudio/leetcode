@@ -1,0 +1,6 @@
+*.c linguist-language=C
+*.cs linguist-language=C#
+*.java linguist-language=Java
+*.py linguist-language=Python
+*.sh linguist-language=Shell
+*.sql linguist-language=sql
