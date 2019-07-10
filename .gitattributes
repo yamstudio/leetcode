@@ -3,4 +3,4 @@
 *.java linguist-language=Java
 *.py linguist-language=Python
 *.sh linguist-language=Shell
-*.sql linguist-language=sql
+*.sql linguist-language=SQL
