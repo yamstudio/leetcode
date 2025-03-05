@@ -39,6 +39,7 @@ class Solution {
                 } else {
                     sb.insert(0, s.charAt(j));
                 }
+                ++j;
             }
             while (j < n && (s.charAt(j) < '0' || s.charAt(j) > '9')) {
                 ++j;
@@ -49,6 +50,7 @@ class Solution {
                 } else {
                     return "";
                 }
+                ++j;
             }
             while (j < n && (s.charAt(j) < '0' || s.charAt(j) > '9')) {
                 ++j;
@@ -66,6 +68,7 @@ class Solution {
                 return "";
             }
             sb.append(s.charAt(i));
+            ++i;
         }
         while (i < n && (s.charAt(i) < 'a' || s.charAt(i) > 'z')) {
             ++i;
